@@ -63,6 +63,8 @@ These features helped improve anomaly detection performance.
 
 ## Model Performance & Insights
 
+<img width="789" height="96" alt="imagem" src="https://github.com/user-attachments/assets/59911592-2fa7-4b20-9f35-e201d69d72c2" />
+
 Key findings:
 
 - **Decision Trees** and **Autoencoder + PCA**
