@@ -109,5 +109,5 @@ https://github.com/JoaoSaraiva99
 
 ## 📎 Project Presentation
 
-Full project presentation available here: 
+Full project presentation available [here](https://github.com/JoaoSaraiva99/Fraud-Analytics-with-KNIME/blob/main/Fraud%20Analytics%20Project.pdf).
 
