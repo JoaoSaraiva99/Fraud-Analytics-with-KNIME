@@ -38,15 +38,10 @@ The project follows the **CRISP-DM framework**, ensuring a structured analytical
 ### Techniques Applied
 
 - Outlier Detection (IQR / Quartiles)
-<img width="1232" height="719" alt="imagem" src="https://github.com/user-attachments/assets/2cde0293-0d3b-44a3-844c-ebc088568735" />
 - Logistic Regression
-<img width="1411" height="399" alt="imagem" src="https://github.com/user-attachments/assets/3e86d7d2-6dbe-4dcb-8be1-497195b1f36c" />
 - Decision Trees
-<img width="1415" height="429" alt="imagem" src="https://github.com/user-attachments/assets/0981090a-e121-4209-bb3a-b85610d5d875" />
 - Random Forest + Email notification automation
-<img width="1438" height="644" alt="imagem" src="https://github.com/user-attachments/assets/30ded3a6-41ca-43e0-9c1c-617e318e6059" />
 - Autoencoders (Neural Networks)
-<img width="1464" height="534" alt="imagem" src="https://github.com/user-attachments/assets/557b9c51-78f8-4719-a7d7-63960fc90b43" />
 
 Each model was implemented with a tailored preprocessing pipeline to ensure fair evaluation.
 
@@ -65,3 +60,54 @@ Each model was implemented with a tailored preprocessing pipeline to ensure fair
 - `device_location_match` → detects location inconsistencies  
 
 These features helped improve anomaly detection performance. 
+
+## Model Performance & Insights
+
+Key findings:
+
+- **Decision Trees** and **Autoencoder + PCA**
+  - High recall → effective for early fraud detection  
+
+- **Quartile-based model**
+  - Best overall balance  
+  - Highest accuracy (~93.63%)  
+  - Strong interpretability  
+
+- **Random Forest & Logistic Regression**
+  - Lower performance due to poor precision
+  
+## Final Architecture
+
+A **3-layer hybrid fraud detection system** was proposed:
+
+1. **Autoencoder (+ PCA)** → Early anomaly detection  
+2. **Decision Tree** → Main classification layer  
+3. **Quartile Model** → Simple validation layer
+
+Benefits:
+- High coverage of fraud cases  
+- Real-time applicability  
+- Strong interpretability  
+- Scalable for e-commerce environments
+
+## Deployment
+
+A real-world simulation was implemented:
+
+- Random Forest model deployed for live scoring  
+- Suspicious transactions filtered automatically  
+- Email alerts triggered for fraud cases  
+- Near real-time monitoring achieved using KNIME workflows  
+
+This demonstrates practical applicability in **high-volume environments (e-commerce / fintech)**
+<img width="1435" height="640" alt="imagem" src="https://github.com/user-attachments/assets/a188d2b7-a8bb-4492-9a3f-24bd0fdec5c4" />
+
+## 🔗 Portfolio
+
+Check more projects here:  
+https://github.com/JoaoSaraiva99
+
+## 📎 Project Presentation
+
+Full project presentation available here: 
+
