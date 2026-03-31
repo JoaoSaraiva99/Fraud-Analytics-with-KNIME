@@ -11,6 +11,6 @@ It focuses on detecting fraudulent transactions using a combination of statistic
 
 ## 📌 Project Overview
 
-<a href="<img width="1667" height="1667" alt="imagem" src="https://github.com/user-attachments/assets/0cdd1ffb-c934-47f2-9cfc-9e8639f6994c" />">
-  <img src="LINK_DA_IMAGEM_DA_BADGE" width="120"/>
+<a href="<img width="500" height="500" alt="imagem" src="https://github.com/user-attachments/assets/0cdd1ffb-c934-47f2-9cfc-9e8639f6994c" />">
+  <img src="[LINK_DA_IMAGEM_DA_BADGE](https://www.credly.com/badges/634b8637-bd87-459b-b8d0-e6694d357735/linked_in_profile)" width="120"/>
 </a>
