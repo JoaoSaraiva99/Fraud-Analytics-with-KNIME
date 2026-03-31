@@ -18,7 +18,7 @@ The solution was built using **KNIME Analytics Platform**, leveraging its low-co
 
 ## Dataset
 
-- ~1.47 million transactions (2024)
+- 1.47 million transactions (2024)
 - 16 variables describing transaction behavior  
 - Target variable: `Is Fraudulent`  
 
